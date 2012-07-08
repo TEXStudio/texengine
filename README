@@ -1,19 +1,38 @@
-Team
-----
+TEXEngine
+---------
+Tiny EXperimental Engine
 
-4rknova
-Shikamu
-DimiVogi
-Francis
-Matt
-Francisco
-
-Notes
+About
 -----
-The game engine supports the following platforms:
- 
+TEXEngine is a small cross platform game engine.
+
+Some of its features are:
+ * LUA scripted UI
+ * Procedural meshes and textures
+ * Physics with Bullet
+ * Audio with Fmod
+ * Scene loading with our custom DSL scripting language (NCF)
+ * CG shaders
+ * Support for the XBOX360 controller
+
+Supported platforms
+-------------------
  * MS Windows
  * Playstation 3
 
 Due to the NDA, we had to remove the PS3 source code
 before releasing the engine as open-source.
+ 
+Dependencies
+------------
+ * bullet
+ * fmod
+ * glew
+ * cg
+ * lua (ver 5.1.4)
+
+Place the files under the directory dep in the root of the
+project with the following structure:
+
+dep/inc/library_name/	: Header files
+dep/lib/library_name/	: Static lib binaries

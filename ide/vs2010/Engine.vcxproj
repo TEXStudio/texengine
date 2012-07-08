@@ -1,0 +1,279 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Project DefaultTargets="Build" ToolsVersion="4.0" xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
+  <ItemGroup Label="ProjectConfigurations">
+    <ProjectConfiguration Include="Debug|Win32">
+      <Configuration>Debug</Configuration>
+      <Platform>Win32</Platform>
+    </ProjectConfiguration>
+    <ProjectConfiguration Include="Release|Win32">
+      <Configuration>Release</Configuration>
+      <Platform>Win32</Platform>
+    </ProjectConfiguration>
+  </ItemGroup>
+  <ItemGroup>
+    <ClCompile Include="..\..\src\asset\assetManager.cpp" />
+    <ClCompile Include="..\..\src\asset\audioclip.cpp" />
+    <ClCompile Include="..\..\src\asset\camera.cpp" />
+    <ClCompile Include="..\..\src\asset\entity.cpp" />
+    <ClCompile Include="..\..\src\asset\light.cpp" />
+    <ClCompile Include="..\..\src\asset\material.cpp" />
+    <ClCompile Include="..\..\src\asset\mesh.cpp" />
+    <ClCompile Include="..\..\src\asset\shader.cpp" />
+    <ClCompile Include="..\..\src\asset\shaderManager.cpp" />
+    <ClCompile Include="..\..\src\asset\texture.cpp" />
+    <ClCompile Include="..\..\src\audio\audioManager.cpp" />
+    <ClCompile Include="..\..\src\input\inputManager.cpp" />
+    <ClCompile Include="..\..\src\input\ps3ControllerDevice.cpp" />
+    <ClCompile Include="..\..\src\input\windowsKeyboardDevice.cpp" />
+    <ClCompile Include="..\..\src\input\windowsMouseDevice.cpp" />
+    <ClCompile Include="..\..\src\input\windowsXbox360ControllerDevice.cpp" />
+    <ClCompile Include="..\..\src\log\logentry.cpp" />
+    <ClCompile Include="..\..\src\log\logmanager.cpp" />
+    <ClCompile Include="..\..\src\math\aabb.cpp" />
+    <ClCompile Include="..\..\src\math\matrix.cpp" />
+    <ClCompile Include="..\..\src\math\quaternion.cpp" />
+    <ClCompile Include="..\..\src\math\vector.cpp" />
+    <ClCompile Include="..\..\src\message\messageManager.cpp" />
+    <ClCompile Include="..\..\src\message\object.cpp" />
+    <ClCompile Include="..\..\src\message\TEXEngineInterface.cpp" />
+    <ClCompile Include="..\..\src\physics\physicsDebugRenderer.cpp" />
+    <ClCompile Include="..\..\src\physics\PhysicsManager.cpp" />
+    <ClCompile Include="..\..\src\physics\PhysicsObj.cpp" />
+    <ClCompile Include="..\..\src\physics\vehicleObject.cpp" />
+    <ClCompile Include="..\..\src\port\pcRenderer.cpp" />
+    <ClCompile Include="..\..\src\port\ps3Renderer.cpp" />
+    <ClCompile Include="..\..\src\port\Timer.cpp" />
+    <ClCompile Include="..\..\src\renderer\iRenderer.cpp" />
+    <ClCompile Include="..\..\src\renderer\renderManager.cpp" />
+    <ClCompile Include="..\..\src\scene\scene.cpp" />
+    <ClCompile Include="..\..\src\scene\sceneManager.cpp" />
+    <ClCompile Include="..\..\src\ui\button.cpp" />
+    <ClCompile Include="..\..\src\ui\checkbox.cpp" />
+    <ClCompile Include="..\..\src\ui\container.cpp" />
+    <ClCompile Include="..\..\src\ui\font.cpp" />
+    <ClCompile Include="..\..\src\ui\label.cpp" />
+    <ClCompile Include="..\..\src\ui\script\luaShrunkDefaultLibraries.cpp" />
+    <ClCompile Include="..\..\src\ui\script\luaState.cpp" />
+    <ClCompile Include="..\..\src\ui\script\luaUILibrary.cpp" />
+    <ClCompile Include="..\..\src\ui\slider.cpp" />
+    <ClCompile Include="..\..\src\ui\textbox.cpp" />
+    <ClCompile Include="..\..\src\ui\textComponent.cpp" />
+    <ClCompile Include="..\..\src\ui\uiComponent.cpp" />
+    <ClCompile Include="..\..\src\ui\uiImage.cpp" />
+    <ClCompile Include="..\..\src\ui\uiManager.cpp" />
+    <ClCompile Include="..\..\src\util\alphamap.cpp" />
+    <ClCompile Include="..\..\src\util\calcnorm.cpp" />
+    <ClCompile Include="..\..\src\util\calctangent.cpp" />
+    <ClCompile Include="..\..\src\util\chroma.cpp" />
+    <ClCompile Include="..\..\src\util\color.cpp" />
+    <ClCompile Include="..\..\src\util\flipfaces.cpp" />
+    <ClCompile Include="..\..\src\util\genrcylinder.cpp" />
+    <ClCompile Include="..\..\src\util\genrdisk.cpp" />
+    <ClCompile Include="..\..\src\util\genrplane.cpp" />
+    <ClCompile Include="..\..\src\util\genrsphere.cpp" />
+    <ClCompile Include="..\..\src\util\gradient.cpp" />
+    <ClCompile Include="..\..\src\util\heightmap.cpp" />
+    <ClCompile Include="..\..\src\util\image.cpp" />
+    <ClCompile Include="..\..\src\util\multiply.cpp" />
+    <ClCompile Include="..\..\src\util\ncf.cpp" />
+    <ClCompile Include="..\..\src\util\nstring.cpp" />
+    <ClCompile Include="..\..\src\util\obj.cpp" />
+    <ClCompile Include="..\..\src\util\ppm.cpp" />
+    <ClCompile Include="..\..\src\util\rotate.cpp" />
+    <ClCompile Include="..\..\src\util\scale.cpp" />
+    <ClCompile Include="..\..\src\util\translate.cpp" />
+    <ClCompile Include="..\..\src\util\xortex.cpp" />
+  </ItemGroup>
+  <ItemGroup>
+    <ClInclude Include="..\..\src\asset\assetEnum.h" />
+    <ClInclude Include="..\..\src\asset\assetManager.hpp" />
+    <ClInclude Include="..\..\src\asset\audioclip.hpp" />
+    <ClInclude Include="..\..\src\asset\camera.hpp" />
+    <ClInclude Include="..\..\src\asset\entity.hpp" />
+    <ClInclude Include="..\..\src\asset\light.hpp" />
+    <ClInclude Include="..\..\src\asset\material.hpp" />
+    <ClInclude Include="..\..\src\asset\mathlib.h" />
+    <ClInclude Include="..\..\src\asset\mesh.hpp" />
+    <ClInclude Include="..\..\src\asset\shader.hpp" />
+    <ClInclude Include="..\..\src\asset\shaderManager.hpp" />
+    <ClInclude Include="..\..\src\asset\texture.hpp" />
+    <ClInclude Include="..\..\src\asset\third_person_camera.h" />
+    <ClInclude Include="..\..\src\audio\audioManager.hpp" />
+    <ClInclude Include="..\..\src\input\inputDevice.hpp" />
+    <ClInclude Include="..\..\src\input\inputManager.hpp" />
+    <ClInclude Include="..\..\src\input\ps3ControllerDevice.hpp" />
+    <ClInclude Include="..\..\src\input\windowsKeyboardDevice.hpp" />
+    <ClInclude Include="..\..\src\input\windowsMouseDevice.hpp" />
+    <ClInclude Include="..\..\src\input\windowsXbox360ControllerDevice.hpp" />
+    <ClInclude Include="..\..\src\log\logentry.hpp" />
+    <ClInclude Include="..\..\src\log\logmanager.hpp" />
+    <ClInclude Include="..\..\src\math\aabb.hpp" />
+    <ClInclude Include="..\..\src\math\interp.h" />
+    <ClInclude Include="..\..\src\math\matrix.hpp" />
+    <ClInclude Include="..\..\src\math\mutil.h" />
+    <ClInclude Include="..\..\src\math\precision.h" />
+    <ClInclude Include="..\..\src\math\prng.h" />
+    <ClInclude Include="..\..\src\math\quaternion.hpp" />
+    <ClInclude Include="..\..\src\math\vector.hpp" />
+    <ClInclude Include="..\..\src\message\message.hpp" />
+    <ClInclude Include="..\..\src\message\messageManager.hpp" />
+    <ClInclude Include="..\..\src\message\object.hpp" />
+    <ClInclude Include="..\..\src\message\TEXEngineInterface.hpp" />
+    <ClInclude Include="..\..\src\physics\CollisionListener.hpp" />
+    <ClInclude Include="..\..\src\physics\physicsDebugRenderer.hpp" />
+    <ClInclude Include="..\..\src\physics\PhysicsManager.hpp" />
+    <ClInclude Include="..\..\src\physics\PhysicsObj.hpp" />
+    <ClInclude Include="..\..\src\physics\PhysicsStructs.hpp" />
+    <ClInclude Include="..\..\src\physics\vehicleObject.hpp" />
+    <ClInclude Include="..\..\src\port\byteorder.h" />
+    <ClInclude Include="..\..\src\port\gfxapi.h" />
+    <ClInclude Include="..\..\src\port\pcRenderer.hpp" />
+    <ClInclude Include="..\..\src\port\ps3Renderer.hpp" />
+    <ClInclude Include="..\..\src\port\Timer.h" />
+    <ClInclude Include="..\..\src\port\vertex.h" />
+    <ClInclude Include="..\..\src\renderer\iRenderer.hpp" />
+    <ClInclude Include="..\..\src\renderer\renderManager.hpp" />
+    <ClInclude Include="..\..\src\renderer\shaderParameter.hpp" />
+    <ClInclude Include="..\..\src\scene\scene.hpp" />
+    <ClInclude Include="..\..\src\scene\sceneManager.hpp" />
+    <ClInclude Include="..\..\src\ui\button.hpp" />
+    <ClInclude Include="..\..\src\ui\checkbox.hpp" />
+    <ClInclude Include="..\..\src\ui\container.hpp" />
+    <ClInclude Include="..\..\src\ui\font.hpp" />
+    <ClInclude Include="..\..\src\ui\label.hpp" />
+    <ClInclude Include="..\..\src\ui\script\luaShrunkDefaultLibraries.hpp" />
+    <ClInclude Include="..\..\src\ui\script\luaState.hpp" />
+    <ClInclude Include="..\..\src\ui\script\luaUILibrary.hpp" />
+    <ClInclude Include="..\..\src\ui\slider.hpp" />
+    <ClInclude Include="..\..\src\ui\stage.hpp" />
+    <ClInclude Include="..\..\src\ui\textbox.hpp" />
+    <ClInclude Include="..\..\src\ui\textComponent.hpp" />
+    <ClInclude Include="..\..\src\ui\uiComponent.hpp" />
+    <ClInclude Include="..\..\src\ui\uiImage.hpp" />
+    <ClInclude Include="..\..\src\ui\uiManager.hpp" />
+    <ClInclude Include="..\..\src\ui\uiUtility.hpp" />
+    <ClInclude Include="..\..\src\util\alphamap.hpp" />
+    <ClInclude Include="..\..\src\util\buffer.hpp" />
+    <ClInclude Include="..\..\src\util\calcnorm.hpp" />
+    <ClInclude Include="..\..\src\util\calctangent.hpp" />
+    <ClInclude Include="..\..\src\util\chroma.hpp" />
+    <ClInclude Include="..\..\src\util\color.hpp" />
+    <ClInclude Include="..\..\src\util\flipfaces.hpp" />
+    <ClInclude Include="..\..\src\util\genrcylinder.hpp" />
+    <ClInclude Include="..\..\src\util\genrdisk.hpp" />
+    <ClInclude Include="..\..\src\util\genrplane.hpp" />
+    <ClInclude Include="..\..\src\util\genrsphere.hpp" />
+    <ClInclude Include="..\..\src\util\gradient.hpp" />
+    <ClInclude Include="..\..\src\util\heightmap.hpp" />
+    <ClInclude Include="..\..\src\util\image.hpp" />
+    <ClInclude Include="..\..\src\util\multiply.hpp" />
+    <ClInclude Include="..\..\src\util\ncf.hpp" />
+    <ClInclude Include="..\..\src\util\nstring.hpp" />
+    <ClInclude Include="..\..\src\util\obj.hpp" />
+    <ClInclude Include="..\..\src\util\ppm.hpp" />
+    <ClInclude Include="..\..\src\util\rotate.hpp" />
+    <ClInclude Include="..\..\src\util\scale.hpp" />
+    <ClInclude Include="..\..\src\util\translate.hpp" />
+    <ClInclude Include="..\..\src\util\utilenum.h" />
+    <ClInclude Include="..\..\src\util\xortex.hpp" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="..\..\src\math\aabb.inl" />
+    <None Include="..\..\src\math\interp.inl" />
+    <None Include="..\..\src\math\matrix.inl" />
+    <None Include="..\..\src\math\mutil.inl" />
+    <None Include="..\..\src\math\prng.inl" />
+    <None Include="..\..\src\math\quaternion.inl" />
+    <None Include="..\..\src\math\vector.inl" />
+    <None Include="..\..\src\port\byteorder.inl" />
+    <None Include="..\..\src\util\buffer.tml" />
+    <None Include="..\..\src\util\color.inl" />
+  </ItemGroup>
+  <PropertyGroup Label="Globals">
+    <ProjectGuid>{10B12AAD-23CE-46BF-AE92-A4D157E99163}</ProjectGuid>
+    <RootNamespace>Engine</RootNamespace>
+  </PropertyGroup>
+  <Import Project="$(VCTargetsPath)\Microsoft.Cpp.Default.props" />
+  <PropertyGroup Condition="'$(Configuration)|$(Platform)'=='Debug|Win32'" Label="Configuration">
+    <ConfigurationType>StaticLibrary</ConfigurationType>
+    <UseDebugLibraries>true</UseDebugLibraries>
+    <CharacterSet>MultiByte</CharacterSet>
+  </PropertyGroup>
+  <PropertyGroup Condition="'$(Configuration)|$(Platform)'=='Release|Win32'" Label="Configuration">
+    <ConfigurationType>StaticLibrary</ConfigurationType>
+    <UseDebugLibraries>false</UseDebugLibraries>
+    <WholeProgramOptimization>true</WholeProgramOptimization>
+    <CharacterSet>MultiByte</CharacterSet>
+  </PropertyGroup>
+  <Import Project="$(VCTargetsPath)\Microsoft.Cpp.props" />
+  <ImportGroup Label="ExtensionSettings">
+  </ImportGroup>
+  <ImportGroup Label="PropertySheets" Condition="'$(Configuration)|$(Platform)'=='Debug|Win32'">
+    <Import Project="$(UserRootDir)\Microsoft.Cpp.$(Platform).user.props" Condition="exists('$(UserRootDir)\Microsoft.Cpp.$(Platform).user.props')" Label="LocalAppDataPlatform" />
+  </ImportGroup>
+  <ImportGroup Label="PropertySheets" Condition="'$(Configuration)|$(Platform)'=='Release|Win32'">
+    <Import Project="$(UserRootDir)\Microsoft.Cpp.$(Platform).user.props" Condition="exists('$(UserRootDir)\Microsoft.Cpp.$(Platform).user.props')" Label="LocalAppDataPlatform" />
+  </ImportGroup>
+  <PropertyGroup Label="UserMacros" />
+  <PropertyGroup Condition="'$(Configuration)|$(Platform)'=='Debug|Win32'">
+    <OutDir>$(SolutionDir)\..\..\bin\</OutDir>
+    <TargetName>$(ProjectName)_d</TargetName>
+    <IncludePath>$(CG_INC_PATH);../../dep/inc/glew;../../dep/inc/fmod;../../dep/inc/bullet;../../dep/inc/lua;$(IncludePath)</IncludePath>
+    <IntDir>$(SolutionDir)\..\..\bin\$(Configuration)\</IntDir>
+    <LibraryPath>$(CG_LIB_PATH);../../dep/lib/glew;../../dep/lib/fmod;../../dep/lib/bullet/PC;../../dep/lib/lua/PC;$(LibraryPath)</LibraryPath>
+    <TargetExt>.lib</TargetExt>
+  </PropertyGroup>
+  <PropertyGroup Condition="'$(Configuration)|$(Platform)'=='Release|Win32'">
+    <OutDir>$(SolutionDir)\..\..\bin\</OutDir>
+    <TargetExt>.lib</TargetExt>
+    <IncludePath>$(CG_INC_PATH);../../dep/inc/glew;../../dep/inc/fmod;../../dep/inc/bullet;../../dep/inc/lua;$(IncludePath)</IncludePath>
+    <IntDir>$(SolutionDir)\..\..\bin\$(Configuration)\</IntDir>
+    <LibraryPath>$(CG_LIB_PATH);../../dep/lib/glew;../../dep/lib/fmod;../../dep/lib/bullet/PC;../../dep/lib/lua/PC;$(LibraryPath)</LibraryPath>
+  </PropertyGroup>
+  <ItemDefinitionGroup Condition="'$(Configuration)|$(Platform)'=='Debug|Win32'">
+    <ClCompile>
+      <WarningLevel>Level3</WarningLevel>
+      <Optimization>Disabled</Optimization>
+      <PreprocessorDefinitions>_CRT_SECURE_NO_WARNINGS;GLEW_STATIC;NCF1_DEBUG;%(PreprocessorDefinitions)</PreprocessorDefinitions>
+    </ClCompile>
+    <Link>
+      <GenerateDebugInformation>true</GenerateDebugInformation>
+    </Link>
+    <BuildLog>
+      <Path>$(IntDir)\$(Configuration)\$(MSBuildProjectName).log</Path>
+    </BuildLog>
+    <Lib>
+      <AdditionalDependencies>glew32sd.lib;opengl32.lib;glu32.lib;cg.lib;cgGL.lib;lua_d.lib;fmodex_vc.lib;BulletCollision_debug.lib;BulletDynamics_debug.lib;LinearMath_debug.lib;OpenGLSupport_debug.lib;%(AdditionalDependencies)</AdditionalDependencies>
+      <Verbose>false</Verbose>
+    </Lib>
+    <ProjectReference>
+      <LinkLibraryDependencies>true</LinkLibraryDependencies>
+    </ProjectReference>
+  </ItemDefinitionGroup>
+  <ItemDefinitionGroup Condition="'$(Configuration)|$(Platform)'=='Release|Win32'">
+    <ClCompile>
+      <WarningLevel>Level3</WarningLevel>
+      <Optimization>MaxSpeed</Optimization>
+      <FunctionLevelLinking>true</FunctionLevelLinking>
+      <IntrinsicFunctions>true</IntrinsicFunctions>
+      <PreprocessorDefinitions>_CRT_SECURE_NO_WARNINGS;GLEW_STATIC;%(PreprocessorDefinitions)</PreprocessorDefinitions>
+    </ClCompile>
+    <Link>
+      <GenerateDebugInformation>true</GenerateDebugInformation>
+      <EnableCOMDATFolding>true</EnableCOMDATFolding>
+      <OptimizeReferences>true</OptimizeReferences>
+    </Link>
+    <BuildLog>
+      <Path>$(IntDir)\$(Configuration)\$(MSBuildProjectName).log</Path>
+    </BuildLog>
+    <Lib>
+      <AdditionalDependencies>glew32s.lib;opengl32.lib;glu32.lib;cg.lib;cgGL.lib;lua.lib;fmodex_vc.lib;BulletCollision.lib;BulletDynamics.lib;LinearMath.lib;OpenGLSupport.lib;%(AdditionalDependencies)</AdditionalDependencies>
+    </Lib>
+    <ProjectReference>
+      <LinkLibraryDependencies>true</LinkLibraryDependencies>
+    </ProjectReference>
+  </ItemDefinitionGroup>
+  <Import Project="$(VCTargetsPath)\Microsoft.Cpp.targets" />
+  <ImportGroup Label="ExtensionTargets">
+  </ImportGroup>
+</Project>
